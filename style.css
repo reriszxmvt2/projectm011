@@ -1,15 +1,30 @@
-.body{
-    background-color:#242A38;
+.body {
+    background-color: #242A38;
 }
 
-.lookhub{
-position: absolute;
-left: 6.93%;
-right: 6.67%;
-top: 38.55%;
-bottom: 38.67%;
+.lookhub {
+    position: absolute;
+    left: 6.93%;
+    right: 6.67%;
+    top: 38.55%;
+    bottom: 38.67%;
+    background: url(logo.png);
+}
 
-background: url(logo.png);
+.welcome {
+    position: absolute;
+    width: 297px;
+    height: 133px;
+    left: 26px;
+    top: 171px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
 
+}
 
+.container{
+    margin-top: 50%;
 }
