@@ -1,30 +1,19 @@
-.body {
-    background-color: #242A38;
+.toolbar{
+    background-color: #555555;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }
 
-.lookhub {
-    position: absolute;
-    left: 6.93%;
-    right: 6.67%;
-    top: 38.55%;
-    bottom: 38.67%;
-    background: url(logo.png);
+.tabbar{
+    background-color: #555555;
 }
 
-.welcome {
-    position: absolute;
-    width: 297px;
-    height: 133px;
-    left: 26px;
-    top: 171px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-
+.title{
+    display: flex;
+    text-align: center;
 }
-
-.container{
-    margin-top: 50%;
+ons-carousel[fullscreen] {
+    height: 30%;
 }

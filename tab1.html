@@ -1,0 +1,41 @@
+<ons-page id="home">
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+    <template id="page1.html">
+      <ons-page id="page1">
+        <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+          <ons-carousel-item id="mov1" style="
+          background: url(/postermovie/after.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;">
+          </ons-carousel-item>
+          <ons-carousel-item id="mov2" style="
+          background: url(/postermovie/bloodshot.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;">
+          </ons-carousel-item>
+          <ons-carousel-item id="mov3" style="
+          background: url(postermovie/hacker.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;">
+          </ons-carousel-item>
+        </ons-carousel>
+        <div>
+          <p style="text-align: center; font-size: 40px;"> ยินดีตอนรับ คุณเพชร</p>
+        </div>
+
+        <div style="display: flex;">
+            <div>
+                <img src="/postermovie/after.jpg" alt="" style="width:150px; height:200px;">
+            </div>
+            <div>
+                <img src="/postermovie/bloodshot.jpg" alt="" style="width:150px; height:200px;">
+            </div>
+            <div>
+                <img src="/postermovie/hacker.jpg" alt="" style="width:150px; height:200px;">
+            </div>
+        </div>
+
+        
+      </ons-page>
+    </template>
+  </ons-page>
